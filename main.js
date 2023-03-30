@@ -21,7 +21,7 @@ const sent = async () => {
     const example = document.getElementById("homeExample");
     example.classList.add("gayab");
 
-    const imgValue = await fetch("https://g.tenor.com/v1/search?q=muslim&key=LIVDSRZULELA&limit=50")
+    const imgValue = await fetch("https://g.tenor.com/v1/search?q=muslimmeme&key=LIVDSRZULELA&limit=50")
     const response = await imgValue.json();
     let arr = [response];
 
